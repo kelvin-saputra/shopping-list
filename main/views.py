@@ -121,3 +121,5 @@ def add_product_ajax(request):
         new_product.save()
         return HttpResponse(b"CREATED", status=201)
     return HttpResponseNotFound()
+
+# Comment
